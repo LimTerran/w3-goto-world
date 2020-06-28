@@ -1,5 +1,6 @@
 ### 目录
 
+* [基层职场入门](基层职场入门/)
 * [书籍与文档](书籍与文档/)
 * [导航网址](导航网址/)
 * [短链接生成](短链接生成/)
@@ -9,7 +10,9 @@
 * [在线视频下载与网课资源](在线视频下载与网课资源/)
 * [分析辅助图](分析辅助图/)
 * [影响体验的text](影响体验的text/)
-* [PC故障疑难解答|桌面运维](https://hoochanlon.github.io/desktop-manual/)
+* [在线上传小文件](https://catbox.moe/)
+* [各类awesome名单](https://github.com/sindresorhus/awesome)
+
 
 
 ### 书签（便于集中式保存）

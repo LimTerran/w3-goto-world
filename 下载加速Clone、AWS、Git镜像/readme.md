@@ -1,3 +1,5 @@
+***短链接：http://8rr.co/6stM***
+
 ### git下载
 
 使用淘宝源加快国内git下载
@@ -9,6 +11,14 @@ https://npm.taobao.org/mirrors/git-for-windows/
 将以下host复制进`C:\Windows\System32\drivers\etc\hosts`，再使用命令行输入`ipconfig /flushdns`刷新dns缓存。目的：此host只为解除红色镰刀锤对GitHub（asw、ssh）下载及克隆的网络限制干扰
 
 详情 [关于Github克隆及下载过慢的解决方案](https://hoochanlon.github.io/note/2019/10-01/4ee4554a.html)
+
+**如果某条hosts的IP、域名变更，而又没及时更新容易引发浏览器的连接错误重置指向，造成站点无法访问**
+
+详情 [GitHub RST与Git SSL_ERR_SYSCALL综合分析](https://hoochanlon.github.io/note/2020/06-06/74ae1ae6.html)
+
+ <details><summary>** 该host文件已废弃，仅作植入IP-DNS映射，阻断联网实验！** </summary>
+
+
 
 ```
 ## GitHub Start
@@ -61,11 +71,15 @@ https://npm.taobao.org/mirrors/git-for-windows/
 
 ## GitHub End
 ```
-附加速小工具：http://www.toolzl.com/tools/githubjiasu.html
+
+</details>
+
 
 <!--
 
 **说在前面：这些问题都可以使用VPN直接解决，但由于红朝特殊环境，找到合适性价比的VPN又是一件比较困难的事，更不用说免费的了，而且免费的基本都赶尽杀绝了...**
+
+-->
 
 ## Github 下载过慢处理（releases）
 
@@ -84,6 +98,13 @@ https://npm.taobao.org/mirrors/git-for-windows/
 
 2. 记录下查询到的IP地址，并添加进入`C:\Windows\System32\drivers\etc\Hosts`文件
 3. 运行`cmd`输入`ipconfig /flushdns` 指令刷新系统DNS
+
+我们也可利用[jsDelivr](https://www.jsdelivr.com) CDN加速进行下载文件，也可借此搭建访问速度加快的图床；还有站点加速下载也可试试：
+* https://toolwa.com/github/
+* http://g.widyun.com/
+* https://shrill-pond-3e81.hunsh.workers.dev/
+* http://www.toolzl.com/tools/githubjiasu.html
+
 
 ## Git Clone 克隆过慢改进
 
@@ -108,7 +129,3 @@ git config --global --unset https.proxy 'socks5://127.0.0.1:1080'
 git config --global --unset http.proxy 'socks5://127.0.0.1:1080'
 ```
 
-
-
-
--->
